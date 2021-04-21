@@ -1,0 +1,40 @@
+.TodoForm-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+}
+.TodoForm-1 .TodoForm-control-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.TodoForm-1 .TodoForm-control-1 input {
+  flex-grow: 1;
+}
+.TodoForm-1 .TodoForm-control-1 textarea {
+  flex-grow: 1;
+}
+.TodoForm-1 .TodoForm-control-1 label {
+  width: 100px;
+}
+
+.TodoForm-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.TodoForm-2 .TodoForm-control-1 label {
+  width: 100px;
+}
+.TodoForm-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.TodoForm-buttons button {
+  width: 100px;
+}

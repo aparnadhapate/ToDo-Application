@@ -1,0 +1,10 @@
+.hover-item :hover {
+  background-color: #fff;
+}
+.hover-item :hover {
+  background-color: inherit;
+}
+
+/* .btn-btn-danger {
+  background-color: rgb(65, 16, 245);
+} */
